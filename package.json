@@ -1,0 +1,21 @@
+{
+  "name": "icall-signaling-server",
+  "version": "1.0.0",
+  "description": "Signaling server for WebRTC Flutter calling app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "webrtc",
+    "signaling",
+    "websocket",
+    "flutter"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "ws": "^8.16.0"
+  }
+}
