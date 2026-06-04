@@ -52,6 +52,10 @@ wss.on('connection', (ws) => {
           }
           break;
 
+        case 'ping':
+          // Client-level keepalive, no action needed
+          break;
+
         default:
           console.log(`Unknown message type: ${data.type}`);
       }
